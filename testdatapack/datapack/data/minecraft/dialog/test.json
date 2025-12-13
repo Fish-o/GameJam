@@ -1,0 +1,37 @@
+{
+    "title": "Title",
+    "type": "minecraft:multi_action",
+    "inputs": [
+        {
+            "key": "name",
+            "type": "minecraft:text",
+            "label": {
+                "type": "nbt",
+                "source": "storage",
+                "storage": "test:mystorage",
+                "nbt": "t"
+            },
+            "label_visible": true
+        }
+    ],
+    "actions": [
+        {
+            "label": "1",
+            "tooltip": "2",
+            "width": 3,
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "give @p minecraft:dirt[item_name=\"$(name)\"]"
+            }
+        },
+         {
+            "label": "1",
+            "tooltip": "2",
+            "width": 30,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "minecraft:notice"
+            }
+        }
+    ]
+}
