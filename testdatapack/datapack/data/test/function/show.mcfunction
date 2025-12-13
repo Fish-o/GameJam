@@ -1,1 +1,1 @@
-$dialog show @a {"title": "l1_pr0c0", "type": "minecraft:dialog_list", "body": {"type": "plain_message", "width": 1024, "contents": $(Pixels)}, "dialogs": ["l1_pr6c6", "l1_pr6c6", "l1_pr6c6", "l1_pr6c5", "l1_pr6c6", "l1_pr6c7"], "columns": 3}
+$dialog show @a {"title": "l1_pr0c0", "type": "minecraft:dialog_list", "body": {"type": "plain_message", "width": 100, "contents": $(Pixels)}, "dialogs": ["test"], "columns": 1}
