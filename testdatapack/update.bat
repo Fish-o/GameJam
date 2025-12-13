@@ -1,0 +1,2 @@
+@echo off
+powershell -command "Compress-Archive -Path '.\datapack' -DestinationPath 'C:\Users\tycho\Desktop\mmc-develop-win32\MultiMC\instances\1.21.11\.minecraft\saves\New World\datapacks\datpack.zip' -Force"
