@@ -38,3 +38,4 @@ execute store result score Fish_o sum \
 scoreboard players operation Fish_o sum += Fish_o calc 
 
 
+execute run function test:sqrt/run with storage test

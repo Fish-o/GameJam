@@ -1,0 +1,12 @@
+each dialog file will have a name that fully
+represents the entire state.
+eg. l1_pr25pc7
+        means level 1, player row position 25, player cpl position 7
+we can add other things to the name if the level requires it
+
+
+Text representaion for a level
+'.' -> empty space
+'#' -> empty space
+'p' -> player position
+'f' -> win condition
